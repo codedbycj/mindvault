@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>MindVault - Flashcards</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>🧠 MindVault</h1>
+    <p>Your spaced repetition flashcard app</p>
+  </header>
+
+  <main>
+    <div id="card-container"></div>
+
+    <div class="controls">
+      <button id="flip-btn">Flip</button>
+      <button id="remembered-btn">Remembered</button>
+      <button id="forgot-btn">Forgot</button>
+    </div>
+
+    <div class="new-card">
+      <input type="text" id="front-input" placeholder="Front (e.g. What is JS?)" required>
+      <input type="text" id="back-input" placeholder="Back (e.g. JavaScript)" required>
+      <button id="add-card-btn">Add Card</button>
+    </div>
+  </main>
+
+  <footer>
+    <p>Made by CJ | MindVault</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
